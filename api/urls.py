@@ -12,6 +12,7 @@ urlpatterns = [
     path('deleteNote/id=<str:pk>/', views.deleteNote),
     path('updateNote/id=<str:pk>/', views.updateNote),
     path('filterNote/filterSearch=<str:filterSearch>&tagID=<str:tagNoteID>/', views.filterNotes),
+    path('filterNote/filterSearch=/', views.getNotes),
     path('filterNote/filterSearch=<str:filterSearch>/', views.filterNotesTitleDesc),
     path('filterNote/tagID=<str:tagNoteID>/', views.filterTagID),
     
