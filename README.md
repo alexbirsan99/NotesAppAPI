@@ -1,6 +1,6 @@
 # NotesAppAPI
 
 
-Notes app API is used for the Notes app and Notes Flutter app.
+Notes app API is used for the Notes app and Notes React Native app.
 <br>
 This API was made with Django REST Framework.
